@@ -1,6 +1,6 @@
 # One Stop Liquor
 
-A three-page store website built with HTML, CSS and JavaScript, with 18 photos taken inside and outside the store.
+A three-page store website built with HTML, CSS and JavaScript, with 20 photos taken inside and outside the store.
 
 ## Files
 
@@ -10,7 +10,7 @@ A three-page store website built with HTML, CSS and JavaScript, with 18 photos t
 - `styles.css` — Shared styling and responsive layouts.
 - `script.js` — Mobile menu and map/contact behavior.
 - `store-details.js` — Address and phone configuration.
-- `images/` — Optimized WebP store photos. The ten new photos also have smaller `-768.webp` versions for phones and gallery cards.
+- `images/` — Optimized WebP store photos. The twelve newer photos also have smaller `-768.webp` versions for phones and gallery cards.
 
 ## Open and edit
 
