@@ -10,20 +10,33 @@ A three-page store website built with HTML, CSS and JavaScript, with 20 photos t
 - `styles.css` — Shared styling and responsive layouts.
 - `script.js` — Mobile menu and map/contact behavior.
 - `store-details.js` — Address and phone configuration.
+- `sitemap.xml` — The three canonical page URLs for search engines.
+- `robots.txt` — Allows crawling and points search engines to the sitemap.
+- `_redirects` — Netlify redirects from the old Netlify domain to the custom domain and from `/index.html` to `/`.
 - `images/` — Optimized WebP store photos. The twelve newer photos also have smaller `-768.webp` versions for phones and gallery cards.
 
 ## Open and edit
 
-Download or clone this repository, then open `index.html` in a browser. No build tools or dependency installation are required. Keep the files and `images` folder together.
+Download or clone this repository, then open it with VS Code Live Server. No build step or project dependencies are required. Serve the repository root so homepage links to `/` work. Keep the files and `images` folder together.
 
 ## Update the location details
 
 The confirmed address is **7940 NW 23rd St, Bethany, OK 73008** and the phone number is **(405) 470-8282**. Posted hours are **Monday–Saturday 10am–9pm; Sunday 12pm–6pm**.
 
-To change the address or phone, update `store-details.js` and the matching HTML in `location.html`; also update the availability phone link in `selection.html`. Keeping the HTML in sync makes the contact information, map and directions available before JavaScript runs or when JavaScript is disabled.
+To change the address, phone or hours, update `store-details.js` where applicable, the visible contact information in all three HTML pages, and the `application/ld+json` business data in each page. Also check page descriptions, social metadata, the availability phone link in `selection.html`, and map/directions links in `location.html`. Keep the posted hours and structured hours consistent. The static HTML makes business details available before JavaScript runs or when JavaScript is disabled.
 
 ## Update photos
 
 Use descriptive filenames in `images/`, then update the image `src`, `srcset`, dimensions and alt text in the relevant HTML page. The `-768.webp` file is the smaller version of the same photo, selected by the browser for smaller displays. Photos below the first section load lazily to keep the initial page light.
 
 Product photos show selection and prices at the time they were taken, not live inventory or current pricing.
+
+## Search and sharing
+
+The preferred domain is **https://onestopliquorok.com/**. Each page includes a unique title and description, an absolute canonical URL, social sharing metadata, and static `LiquorStore` structured data. The homepage also identifies the site's name with `WebSite` structured data. The address, phone and posted hours are visible on every page.
+
+The sitemap contains only the homepage, selection page and location page. If a page is added or its canonical URL changes, update `sitemap.xml`, its canonical tag, sharing URL and internal links together. Set `lastmod` to the date of a meaningful change to that page; do not refresh it merely because the site is deployed.
+
+After deployment, check that `/robots.txt` and `/sitemap.xml` return successfully, then submit **https://onestopliquorok.com/sitemap.xml** in the verified Google Search Console property. Validate the business markup with Google's Rich Results Test. The sitemap is also advertised in `robots.txt`; adding it does not guarantee indexing or a particular ranking.
+
+References: [Google's sitemap guide](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [local business structured data](https://developers.google.com/search/docs/appearance/structured-data/local-business), and [Netlify redirects](https://docs.netlify.com/manage/routing/redirects/redirect-options/).

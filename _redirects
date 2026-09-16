@@ -1,0 +1,6 @@
+# Consolidate the original Netlify address onto the custom domain.
+https://one-stop-liquor.netlify.app/* https://onestopliquorok.com/:splat 301!
+http://one-stop-liquor.netlify.app/* https://onestopliquorok.com/:splat 301!
+
+# Keep the homepage at its canonical URL.
+/index.html / 301!
