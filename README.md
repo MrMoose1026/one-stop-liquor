@@ -13,7 +13,7 @@ A three-page store website built with HTML, CSS and JavaScript, with 20 photos t
 - `sitemap.xml` — The three canonical page URLs for search engines.
 - `robots.txt` — Allows crawling and points search engines to the sitemap.
 - `_redirects` — Netlify redirects from the old Netlify domain to the custom domain and from `/index.html` to `/`.
-- `images/` — Optimized WebP store photos. The twelve newer photos also have smaller `-768.webp` versions for phones and gallery cards.
+- `images/` — Optimized WebP store photos, with responsive versions for phones and gallery cards. The homepage photos and remaining original photos used on the other pages include 480px, 768px and (when smaller than the original) 1152px versions.
 
 ## Open and edit
 
@@ -27,7 +27,9 @@ To change the address, phone or hours, update `store-details.js` where applicabl
 
 ## Update photos
 
-Use descriptive filenames in `images/`, then update the image `src`, `srcset`, dimensions and alt text in the relevant HTML page. The `-768.webp` file is the smaller version of the same photo, selected by the browser for smaller displays. Photos below the first section load lazily to keep the initial page light.
+Use descriptive filenames in `images/`, then update the image `src`, `srcset`, dimensions and alt text in the relevant HTML page. Files ending in `-480.webp`, `-768.webp` or `-1152.webp` are smaller versions of the same photo. The browser uses `srcset`, `sizes` and screen pixel density to choose a suitable file. Keep width descriptors equal to the actual file width, and export each variant directly from the original photo rather than repeatedly recompressing a smaller version.
+
+The `sizes` values follow the shared stylesheet's page margins and gallery columns, including its phone and tablet breakpoints. Update them alongside future layout changes. Hero photos retain `fetchpriority="high"`; photos below the first section load lazily. The shared stylesheet stays render-blocking so the page has its complete styling on first display.
 
 Product photos show selection and prices at the time they were taken, not live inventory or current pricing.
 
