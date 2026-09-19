@@ -1,9 +1,7 @@
 (() => {
-  document.documentElement.classList.add('js');
   const menu = document.querySelector('.menu-toggle');
   const navigation = document.querySelector('#main-nav');
   if (menu && navigation) {
-    menu.hidden = false;
     const closeMenu = () => {
       menu.setAttribute('aria-expanded', 'false');
       menu.textContent = 'Menu';

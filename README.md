@@ -31,6 +31,8 @@ Use descriptive filenames in `images/`, then update the image `src`, `srcset`, d
 
 The `sizes` values follow the shared stylesheet's page margins and gallery columns, including its phone and tablet breakpoints. Update them alongside future layout changes. Hero photos retain `fetchpriority="high"`; photos below the first section load lazily. The shared stylesheet stays render-blocking so the page has its complete styling on first display.
 
+A small script before the stylesheet marks JavaScript support before the first paint. This keeps the mobile navigation collapsed and reserves its Menu button immediately, avoiding a page jump when the deferred menu code starts. Without JavaScript, the navigation links remain visible; if the external script fails to load, its error handler restores those links.
+
 Product photos show selection and prices at the time they were taken, not live inventory or current pricing.
 
 ## Search and sharing

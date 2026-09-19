@@ -23,8 +23,9 @@
   <meta name="twitter:image" content="https://onestopliquorok.com/images/storefront-wide.webp">
   <meta name="twitter:image:alt" content="One Stop Liquor storefront at 7940 NW 23rd St in Bethany, Oklahoma">
   <meta name="theme-color" content="#a5202e">
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <script src="script.js" defer onerror="document.documentElement.classList.remove('js')"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -87,7 +88,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="/" aria-label="One Stop Liquor home"><span class="brand-main">ONE <span>STOP</span> LIQUOR</span><span class="brand-sub">WINE · SPIRITS · BEER</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu</button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
       <nav class="site-nav" id="main-nav" aria-label="Main navigation"><a href="/" aria-current="page">Home</a><a href="selection.html">Our selection</a><a href="location.html">Our new location</a></nav>
     </div>
   </header>
