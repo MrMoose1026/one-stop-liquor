@@ -4,3 +4,56 @@ http://one-stop-liquor.netlify.app/* https://onestopliquorok.com/:splat 301!
 
 # Keep the homepage at its canonical URL.
 /index.html / 301!
+
+# Preserve existing image links after adding store and location to filenames.
+/images/beer-and-cans-480.webp /images/one-stop-liquor-bethany-beer-and-cans-480.webp 301!
+/images/beer-and-cans-768.webp /images/one-stop-liquor-bethany-beer-and-cans-768.webp 301!
+/images/beer-and-cans.webp /images/one-stop-liquor-bethany-beer-and-cans.webp 301!
+/images/bourbon-and-whiskey-1152.webp /images/one-stop-liquor-bethany-bourbon-and-whiskey-1152.webp 301!
+/images/bourbon-and-whiskey-480.webp /images/one-stop-liquor-bethany-bourbon-and-whiskey-480.webp 301!
+/images/bourbon-and-whiskey-768.webp /images/one-stop-liquor-bethany-bourbon-and-whiskey-768.webp 301!
+/images/bourbon-and-whiskey.webp /images/one-stop-liquor-bethany-bourbon-and-whiskey.webp 301!
+/images/canned-cocktails-and-citrus-mixers-768.webp /images/one-stop-liquor-bethany-canned-cocktails-and-citrus-mixers-768.webp 301!
+/images/canned-cocktails-and-citrus-mixers.webp /images/one-stop-liquor-bethany-canned-cocktails-and-citrus-mixers.webp 301!
+/images/checkout-counter-wide-768.webp /images/one-stop-liquor-bethany-checkout-counter-wide-768.webp 301!
+/images/checkout-counter-wide.webp /images/one-stop-liquor-bethany-checkout-counter-wide.webp 301!
+/images/counter-and-mixers-1152.webp /images/one-stop-liquor-bethany-counter-and-mixers-1152.webp 301!
+/images/counter-and-mixers-480.webp /images/one-stop-liquor-bethany-counter-and-mixers-480.webp 301!
+/images/counter-and-mixers-768.webp /images/one-stop-liquor-bethany-counter-and-mixers-768.webp 301!
+/images/counter-and-mixers.webp /images/one-stop-liquor-bethany-counter-and-mixers.webp 301!
+/images/counter-spirits-display-768.webp /images/one-stop-liquor-bethany-counter-spirits-display-768.webp 301!
+/images/counter-spirits-display.webp /images/one-stop-liquor-bethany-counter-spirits-display.webp 301!
+/images/flavored-vodka-and-mixers-768.webp /images/one-stop-liquor-bethany-flavored-vodka-and-mixers-768.webp 301!
+/images/flavored-vodka-and-mixers.webp /images/one-stop-liquor-bethany-flavored-vodka-and-mixers.webp 301!
+/images/inside-the-store.webp /images/one-stop-liquor-bethany-inside-the-store.webp 301!
+/images/mini-bottles-and-cocktails-768.webp /images/one-stop-liquor-bethany-mini-bottles-and-cocktails-768.webp 301!
+/images/mini-bottles-and-cocktails.webp /images/one-stop-liquor-bethany-mini-bottles-and-cocktails.webp 301!
+/images/rum-and-liqueurs-768.webp /images/one-stop-liquor-bethany-rum-and-liqueurs-768.webp 301!
+/images/rum-and-liqueurs.webp /images/one-stop-liquor-bethany-rum-and-liqueurs.webp 301!
+/images/rum-and-whiskey-aisle-768.webp /images/one-stop-liquor-bethany-rum-and-whiskey-aisle-768.webp 301!
+/images/rum-and-whiskey-aisle.webp /images/one-stop-liquor-bethany-rum-and-whiskey-aisle.webp 301!
+/images/scotch-irish-whiskey-and-gin-768.webp /images/one-stop-liquor-bethany-scotch-irish-whiskey-and-gin-768.webp 301!
+/images/scotch-irish-whiskey-and-gin.webp /images/one-stop-liquor-bethany-scotch-irish-whiskey-and-gin.webp 301!
+/images/spirits-selection.webp /images/one-stop-liquor-bethany-spirits-selection.webp 301!
+/images/storefront-entrance-1152.webp /images/one-stop-liquor-bethany-storefront-entrance-1152.webp 301!
+/images/storefront-entrance-480.webp /images/one-stop-liquor-bethany-storefront-entrance-480.webp 301!
+/images/storefront-entrance-768.webp /images/one-stop-liquor-bethany-storefront-entrance-768.webp 301!
+/images/storefront-entrance.webp /images/one-stop-liquor-bethany-storefront-entrance.webp 301!
+/images/storefront-sign-1152.webp /images/one-stop-liquor-bethany-storefront-sign-1152.webp 301!
+/images/storefront-sign-480.webp /images/one-stop-liquor-bethany-storefront-sign-480.webp 301!
+/images/storefront-sign-768.webp /images/one-stop-liquor-bethany-storefront-sign-768.webp 301!
+/images/storefront-sign.webp /images/one-stop-liquor-bethany-storefront-sign.webp 301!
+/images/storefront-wide-1152.webp /images/one-stop-liquor-bethany-storefront-wide-1152.webp 301!
+/images/storefront-wide-480.webp /images/one-stop-liquor-bethany-storefront-wide-480.webp 301!
+/images/storefront-wide-768.webp /images/one-stop-liquor-bethany-storefront-wide-768.webp 301!
+/images/storefront-wide.webp /images/one-stop-liquor-bethany-storefront-wide.webp 301!
+/images/tequila-and-whiskey-shelves-768.webp /images/one-stop-liquor-bethany-tequila-and-whiskey-shelves-768.webp 301!
+/images/tequila-and-whiskey-shelves.webp /images/one-stop-liquor-bethany-tequila-and-whiskey-shelves.webp 301!
+/images/tequila-selection-768.webp /images/one-stop-liquor-bethany-tequila-selection-768.webp 301!
+/images/tequila-selection.webp /images/one-stop-liquor-bethany-tequila-selection.webp 301!
+/images/vodka-and-brandy-768.webp /images/one-stop-liquor-bethany-vodka-and-brandy-768.webp 301!
+/images/vodka-and-brandy.webp /images/one-stop-liquor-bethany-vodka-and-brandy.webp 301!
+/images/wine-selection-1152.webp /images/one-stop-liquor-bethany-wine-selection-1152.webp 301!
+/images/wine-selection-480.webp /images/one-stop-liquor-bethany-wine-selection-480.webp 301!
+/images/wine-selection-768.webp /images/one-stop-liquor-bethany-wine-selection-768.webp 301!
+/images/wine-selection.webp /images/one-stop-liquor-bethany-wine-selection.webp 301!

@@ -1,15 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://onestopliquorok.com/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-wide.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-wine-selection.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-bourbon-and-whiskey.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-beer-and-cans.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://onestopliquorok.com/selection.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-tequila-and-whiskey-shelves.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-wine-selection.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-bourbon-and-whiskey.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-tequila-selection.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-vodka-and-brandy.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-rum-and-liqueurs.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-scotch-irish-whiskey-and-gin.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-beer-and-cans.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-counter-and-mixers.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-mini-bottles-and-cocktails.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-counter-spirits-display.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-rum-and-whiskey-aisle.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-flavored-vodka-and-mixers.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-canned-cocktails-and-citrus-mixers.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-checkout-counter-wide.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://onestopliquorok.com/location.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-entrance.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-sign.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-rum-and-whiskey-aisle.webp</image:loc>
+    </image:image>
   </url>
 </urlset>
