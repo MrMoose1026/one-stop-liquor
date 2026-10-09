@@ -1,6 +1,6 @@
 # One Stop Liquor
 
-A three-page store website built with HTML, CSS and JavaScript, with 20 photos taken inside and outside the store.
+A three-page store website built with HTML, CSS and JavaScript, with store and inventory photos taken inside and outside the store. The October 9, 2026 update adds 23 photographs, grouped by category on the selection page.
 
 ## Files
 
@@ -48,3 +48,9 @@ The sitemap lists the homepage, selection page and location page, plus the full-
 After deployment, check that `/robots.txt` and `/sitemap.xml` return successfully, then submit **https://onestopliquorok.com/sitemap.xml** in the verified Google Search Console property. Validate the business markup with Google's Rich Results Test. The sitemap is also advertised in `robots.txt`; adding it does not guarantee indexing or a particular ranking.
 
 References: [Google's sitemap guide](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [local business structured data](https://developers.google.com/search/docs/appearance/structured-data/local-business), and [Netlify redirects](https://docs.netlify.com/manage/routing/redirects/redirect-options/).
+
+## Friday photo updates
+
+The October 9 batch uses date-stamped descriptive filenames so returning visitors receive the new pictures. All 23 supplied photos have optimized WebP versions at 480px, 768px and their original width, exported directly from the source JPEG. The selection page displays the full portrait shelf photos and offers category links; beer and counter photos remain alongside the new images.
+
+For the next batch, update the relevant HTML images, alt text, responsive variants, sharing metadata and image sitemap. Update the visible “Latest shelf photos” date when new shelf photographs are added. Keep each sitemap lastmod tied to a meaningful page change. Use a new date in filenames for replacement photos; preserve older files and existing redirects while they may still be referenced.

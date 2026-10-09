@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://onestopliquorok.com/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-wide.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-front-view-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-wine-selection.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-white-wine-and-wine-aisle-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-bourbon-and-whiskey.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-makers-mark-and-american-whiskey-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-beer-and-cans.webp</image:loc>
@@ -18,27 +18,69 @@
   </url>
   <url>
     <loc>https://onestopliquorok.com/selection.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-tequila-and-whiskey-shelves.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-patron-don-julio-and-teremana-tequila-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-wine-selection.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-red-wine-and-sparkling-wine-rack-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-bourbon-and-whiskey.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-white-wine-and-wine-aisle-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-tequila-selection.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-boxed-wine-and-canned-drinks-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-vodka-and-brandy.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-makers-mark-and-american-whiskey-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-rum-and-liqueurs.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-knob-creek-wild-turkey-and-whiskey-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-scotch-irish-whiskey-and-gin.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-jack-daniels-jim-beam-and-boxed-wine-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-elijah-craig-evan-williams-and-bacardi-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-bourbon-captain-morgan-and-rum-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-don-julio-espolon-and-hornitos-tequila-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-1800-jose-cuervo-and-mezcal-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-brandy-absolut-and-flavored-vodka-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-grey-goose-absolut-and-skyy-vodka-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-skyy-smirnoff-and-premium-vodka-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-titos-smirnoff-and-flavored-vodka-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-svedka-pinnacle-and-cocktail-vodka-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-scotch-and-cognac-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-cognac-irish-whiskey-and-gin-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-bacardi-cruzan-and-cocktail-mixers-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-malibu-baileys-and-liqueurs-2026-10-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-malibu-jagermeister-and-cordials-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-beer-and-cans.webp</image:loc>
@@ -53,12 +95,6 @@
       <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-counter-spirits-display.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-rum-and-whiskey-aisle.webp</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-flavored-vodka-and-mixers.webp</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-canned-cocktails-and-citrus-mixers.webp</image:loc>
     </image:image>
     <image:image>
@@ -67,15 +103,15 @@
   </url>
   <url>
     <loc>https://onestopliquorok.com/location.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-entrance.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-front-view-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-sign.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-storefront-parking-and-entrance-2026-10-09.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-rum-and-whiskey-aisle.webp</image:loc>
+      <image:loc>https://onestopliquorok.com/images/one-stop-liquor-bethany-red-wine-and-sparkling-wine-rack-2026-10-09.webp</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -11,6 +11,13 @@
 .selection-gallery .gallery-item h3{font-size:1.7rem}
 .selection-gallery .gallery-item .caption-label{font-size:.875rem;letter-spacing:.08em}
 [hidden]{display:none!important}
+.selection-categories{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.selection-categories a{border:1px solid var(--line);border-radius:3px;padding:9px 15px;min-height:44px;text-decoration:none;font-size:.9375rem}
+.selection-categories a:hover{border-color:var(--red);color:var(--red)}
+.photo-update{color:var(--muted);font-size:.875rem;margin-bottom:35px}
+.selection-group{margin-top:48px}
+.selection-group .section-head{margin-bottom:25px}
+.selection-gallery .shelf-photo img{aspect-ratio:auto;object-fit:contain}
 @media(max-width:1050px) and (min-width:761px){.selection-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1500px){.hero{min-height:690px}.hero-image img{height:530px}}
 @media(max-width:1050px){.wrap{width:calc(100% - 64px)}.hero{gap:35px;min-height:560px}.hero-image img{height:450px}.image-note{left:-12px}.site-nav{gap:24px}.selection-card img{height:230px}.location-hero{gap:32px}.location-details{gap:35px}.gallery-main{gap:35px}}
