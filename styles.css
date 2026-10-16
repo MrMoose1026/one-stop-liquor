@@ -21,6 +21,21 @@
 /* Feature the counter display directly below the storefront, keeping full photos visible. */
 .section.featured-display{padding-top:0}
 .featured-gallery .gallery-item img{aspect-ratio:1;object-fit:contain;background:var(--sand)}
+.spotlight-carousel.is-enhanced{max-width:860px;margin-inline:auto}
+.spotlight-carousel.is-enhanced .carousel-slides{display:grid;grid-template-columns:minmax(0,1fr);gap:0;touch-action:pan-y}
+.spotlight-carousel.is-enhanced .gallery-item{grid-area:1/1;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .55s ease,visibility .55s ease}
+.spotlight-carousel.is-enhanced .gallery-item.is-active{opacity:1;visibility:visible;pointer-events:auto}
+.spotlight-carousel.is-enhanced .gallery-item img{height:clamp(280px,48vw,520px);aspect-ratio:auto;object-fit:contain}
+.spotlight-carousel.is-enhanced figcaption{text-align:center;padding-inline:8px}
+.carousel-controls{display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;gap:8px;max-width:440px;margin:20px auto 0}
+.carousel-controls button{min-height:44px;border:1px solid var(--line);border-radius:3px;background:var(--paper);color:var(--ink);cursor:pointer}
+.carousel-controls button:hover{border-color:var(--red);color:var(--red)}
+.carousel-arrow{font-size:1.4rem}
+.carousel-dots{display:flex;justify-content:center;min-width:0}
+.carousel-dots button{flex:0 1 44px;min-width:24px;padding:0;border:0;background:transparent;display:grid;place-items:center}
+.carousel-dots button::before{content:'';width:9px;height:9px;border:1px solid var(--red);border-radius:50%;background:transparent}
+.carousel-dots button[aria-current=true]::before{background:var(--red)}
+.carousel-toggle{grid-column:1/-1;justify-self:center;padding:8px 18px;min-width:155px;font-size:.875rem}
 @media(max-width:1050px) and (min-width:761px){.selection-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1500px){.hero{min-height:690px}.hero-image img{height:530px}}
 @media(max-width:1050px){.wrap{width:calc(100% - 64px)}.hero{gap:35px;min-height:560px}.hero-image img{height:450px}.image-note{left:-12px}.site-nav{gap:24px}.selection-card img{height:230px}.location-hero{gap:32px}.location-details{gap:35px}.gallery-main{gap:35px}}

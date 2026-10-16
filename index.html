@@ -107,7 +107,8 @@
     </section>
     <section class="wrap section featured-display" id="in-the-spotlight" aria-labelledby="spotlight-title">
       <div class="section-head"><div><span class="eyebrow">Currently in store</span><h2 id="spotlight-title">In the Spotlight</h2><p>A few standouts around the store, starting with the Monkey Head vodka gift set on the counter when you walk in.</p></div></div>
-      <div class="gallery-grid selection-gallery featured-gallery">
+      <div class="spotlight-carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="Featured items">
+      <div class="gallery-grid selection-gallery featured-gallery carousel-slides" id="spotlight-slides" aria-live="off">
         <figure class="gallery-item">
           <img src="images/one-stop-liquor-bethany-monkey-head-vodka-gift-set-2026-10-15.webp" srcset="images/one-stop-liquor-bethany-monkey-head-vodka-gift-set-2026-10-15-480.webp 480w, images/one-stop-liquor-bethany-monkey-head-vodka-gift-set-2026-10-15-768.webp 768w, images/one-stop-liquor-bethany-monkey-head-vodka-gift-set-2026-10-15.webp 1152w" sizes="(max-width: 380px) calc(100vw - 32px), (max-width: 760px) calc(100vw - 40px), (max-width: 1050px) calc((100vw - 92px) / 2), (max-width: 1296px) calc((100vw - 152px) / 3), 382px" width="1152" height="1536" alt="Monkey Head vodka gift set with a monkey-shaped bottle and two matching glasses at One Stop Liquor in Bethany, Oklahoma" loading="lazy" decoding="async">
           <figcaption><h3>Monkey Head vodka gift set</h3></figcaption>
@@ -128,6 +129,13 @@
           <img src="images/one-stop-liquor-bethany-chilled-beer-and-canned-drinks-2026-10-15.webp" srcset="images/one-stop-liquor-bethany-chilled-beer-and-canned-drinks-2026-10-15-480.webp 480w, images/one-stop-liquor-bethany-chilled-beer-and-canned-drinks-2026-10-15-768.webp 768w, images/one-stop-liquor-bethany-chilled-beer-and-canned-drinks-2026-10-15.webp 1152w" sizes="(max-width: 380px) calc(100vw - 32px), (max-width: 760px) calc(100vw - 40px), (max-width: 1050px) calc((100vw - 92px) / 2), (max-width: 1296px) calc((100vw - 152px) / 3), 382px" width="1152" height="1536" alt="Glass-front cooler stocked with beer, canned cocktails and soft drinks at One Stop Liquor in Bethany, Oklahoma" loading="lazy" decoding="async">
           <figcaption><h3>Inside the cooler</h3></figcaption>
         </figure>
+      </div>
+      <div class="carousel-controls" hidden>
+        <button type="button" class="carousel-arrow" data-carousel-prev aria-label="Previous featured item" aria-controls="spotlight-slides">←</button>
+        <div class="carousel-dots" aria-label="Choose a featured item"></div>
+        <button type="button" class="carousel-arrow" data-carousel-next aria-label="Next featured item" aria-controls="spotlight-slides">→</button>
+        <button type="button" class="carousel-toggle" data-carousel-toggle>Pause slideshow</button>
+      </div>
       </div>
       <p class="availability">Photos show products and prices at the time they were taken. Selection, availability and pricing can change. Call <a href="tel:+14054708282">(405) 470-8282</a> to ask about a specific item.</p>
     </section>
