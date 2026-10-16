@@ -18,8 +18,9 @@
 .selection-group{margin-top:48px}
 .selection-group .section-head{margin-bottom:25px}
 .selection-gallery .shelf-photo img{aspect-ratio:auto;object-fit:contain}
-/* Show each gift set and cooler photo in full within an even gallery frame. */
-.explore-gallery .gallery-item img{aspect-ratio:1;object-fit:contain;background:var(--sand)}
+/* Feature the counter display directly below the storefront, keeping full photos visible. */
+.section.featured-display{padding-top:0}
+.featured-gallery .gallery-item img{aspect-ratio:1;object-fit:contain;background:var(--sand)}
 @media(max-width:1050px) and (min-width:761px){.selection-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1500px){.hero{min-height:690px}.hero-image img{height:530px}}
 @media(max-width:1050px){.wrap{width:calc(100% - 64px)}.hero{gap:35px;min-height:560px}.hero-image img{height:450px}.image-note{left:-12px}.site-nav{gap:24px}.selection-card img{height:230px}.location-hero{gap:32px}.location-details{gap:35px}.gallery-main{gap:35px}}
